@@ -1,0 +1,9 @@
+.header {
+    padding: 32px 0 15px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2.2fr .62fr;
+}
+.logo {
+    max-width: 165px;
+}
