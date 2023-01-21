@@ -1,0 +1,8 @@
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-ph {
+    max-width: 58px;
+}
