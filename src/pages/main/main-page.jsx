@@ -1,5 +1,11 @@
+import { App } from '../../components/app';
+
+import './main-page.css';
+
+import logo from '../../components/header/logo.svg';
+
 export const MainPage = () => (
     <section className='main-page'>
-        <div>Main-page</div>
+        <App/>
     </section>
 );
