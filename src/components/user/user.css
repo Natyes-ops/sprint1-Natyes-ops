@@ -6,3 +6,8 @@
 .user-ph {
     max-width: 58px;
 }
+@media screen and (max-width: 1024px) {
+    .user {
+        display: none;
+    }
+}
