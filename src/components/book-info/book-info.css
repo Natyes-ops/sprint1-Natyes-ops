@@ -188,7 +188,8 @@
         grid-area: 2/2;
     }
     .reviews .title {
-        margin: 0 0 13px;
+        margin: 0 0 26px;
+        padding: 0 0 5px;
     }
     .review .rating-item:not(:last-child) {
         margin-right: 8px;
