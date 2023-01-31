@@ -1,0 +1,14 @@
+.menu-title {
+    max-width: 255px;
+    margin: 0 0 16px;
+    padding-bottom: 8px;
+    background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%) 1;
+}
+.menu-list {
+    padding: 0 0 0 24px;
+}
