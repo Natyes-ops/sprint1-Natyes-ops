@@ -1,4 +1,5 @@
 .header {
+    margin-bottom: 47px;
     padding: 32px 0 15px;
     display: grid;
     align-items: center;
@@ -6,4 +7,41 @@
 }
 .logo {
     max-width: 165px;
+}
+.menu-mob {
+    display: none;
+    width: 32px;
+    height: 32px;
+}
+@media screen and (max-width: 1024px) {
+    .logo-link {
+        display: none;
+    }
+    .menu-mob {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .header {
+        margin-bottom: 30px;
+        padding: 32px 0 24px;
+        grid-template-columns: 32px 1fr;
+        gap: 24px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .header {
+        margin-bottom: 10px;
+        padding: 24px 0;
+        gap: 16px;
+    }
+    .menu-mob {
+        width: 24px;
+        height: 24px;
+    }
+    .header h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
 }
