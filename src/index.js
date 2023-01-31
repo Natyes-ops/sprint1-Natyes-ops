@@ -4,9 +4,9 @@ import { HashRouter, Route, Routes } from 'react-router-dom';
 
 import { MenuList } from './components/menu';
 import { BookPage } from './pages/book';
-import { ContractPage } from './pages/contract';
+import { ContractPage } from './components/contract';
 import { MainPage } from './pages/main';
-import { TermsPage } from './pages/terms';
+import { TermsPage } from './components/terms';
 
 import './index.css';
 
