@@ -14,7 +14,9 @@ body {
   color: #363636;
   letter-spacing: 0.1px;
 }
-
+.block {
+  display: block;
+}
 *,
 *:before,
 *:after {
@@ -83,12 +85,6 @@ select {
 .white {
   background: #ffffff;
 }
-.btn {
-  background: linear-gradient(233.73deg, #F83600 -16.08%, #F9D423 327.37%);
-}
-.btn:hover {
-  background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
-}
 .warning {
   background: #FFBC1F;
 }
@@ -110,7 +106,7 @@ select {
   background: #727272;
 }
 .black40 {
-  background: #A7A7A7;
+  color: #A7A7A7;
 }
 .black20 {
   background: #BFC4C9;
@@ -123,34 +119,39 @@ select {
 }
 /* Style Kit */
 /* fonts desktop */
-h1 {
+h1,
+.h1 {
   font-weight: 500;
   font-size: 52px;
   line-height: 64px;
   letter-spacing: 0.2px;
   color: #000000;
 }
-h2 {
+h2,
+.h2 {
   font-weight: 600;
   font-size: 44px;
   line-height: 54px;
   color: #000000;
 }
-h3 {
+h3,
+.h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   letter-spacing: 0.1px;
   color: #000000;
 }
-h4 {
+h4,
+.h4 {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   letter-spacing: 0.1px;
   color: #000000;
 }
-h5 {
+h5,
+.h5 {
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
@@ -176,14 +177,12 @@ h5 {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.1px;
-  color: #000000;
 }
 .body-s {
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.1px;
-  color: #000000;
 }
 .info-l {
   font-weight: 500;
@@ -277,7 +276,6 @@ h3.mob {
   line-height: 18px;
   letter-spacing: 0.2px;
   text-transform: uppercase;
-  color: #000000;
 }
 .info-l--mob {
   font-weight: 500;
